@@ -7,6 +7,12 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  max-width: 1500px;
+  background: linear-gradient(to left, $color-1, $color-2);
+  margin: 0 auto;
+}
+
 /* CSS Best Practices
 
   Box (position, display, width, margin, etc.)
