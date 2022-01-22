@@ -1,6 +1,6 @@
 import "./Hero.scss";
-import Waves from "../../images/waves.svg?component";
-import Planes from "../../images/planes.svg?component";
+import Waves from "@/images/waves.svg?component";
+import Planes from "@/images/planes.svg?component";
 
 export default function Hero() {
   return (

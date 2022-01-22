@@ -1,6 +1,6 @@
 import "./News.scss";
-import Fly from "../../images/fly.svg?component";
-import Stairs from "../../images/stairs.svg?component";
+import Fly from "@/images/fly.svg?component";
+import Stairs from "@/images/stairs.svg?component";
 
 export default function News() {
   return (
