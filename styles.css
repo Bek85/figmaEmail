@@ -3,4 +3,60 @@ body {
   background: -webkit-gradient(linear, right top, left top, from(#ffe1d1), to(#ffdbca));
   background: linear-gradient(to left, #ffe1d1, #ffdbca);
 }
+
+/* CSS Best Practices
+
+  Box (position, display, width, margin, etc.)
+  Text
+  Background
+  Border
+  Other (Alphabetically
+
+*/
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 1fr;
+      grid-template-columns: 20% 1fr;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.header-letter {
+  font-size: 30px;
+  color: #6a4a39;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.7;
+  list-style: none;
+}
+
+.menu-item {
+  margin: 0 47px;
+}
+
+.menu-item:last-of-type {
+  color: #ff7676;
+  border-bottom: 4px solid #f8d1b4;
+}
 /*# sourceMappingURL=styles.css.map */
