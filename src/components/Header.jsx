@@ -1,10 +1,11 @@
 import "./Header.scss";
+import Logo from "../../images/logo.svg?component";
 
 export default function Header() {
   return (
     <header className="header">
       <div className="header-logo">
-        <img className="logo" src="images/logo.svg" alt="logo" />
+        <Logo className="logo" />
         <span className="header-letter">Letter</span>
       </div>
       <nav>
