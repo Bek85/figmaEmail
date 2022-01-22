@@ -1,15 +1,19 @@
-$color-1: #ffe1d1;
-$color-2: #ffdbca;
+$bg-1: #ffe1d1;
+$bg-2: #ffdbca;
+$logo-text: #6a4a39;
+$nav-item-last-color: #ff7676;
+$nav-item-color-border-bottom: #f8d1b4;
+$hero-border-bottom: #ff8989;
 
 body {
   font-family: Alegreya, serif;
-  background: linear-gradient(to left, $color-1, $color-2);
+  background: linear-gradient(to left, $bg-1, $bg-2);
   overflow-x: hidden;
 }
 
 .container {
   max-width: 1500px;
-  background: linear-gradient(to left, $color-1, $color-2);
+  background: linear-gradient(to left, $bg-1, $bg-2);
   margin: 0 auto;
 }
 

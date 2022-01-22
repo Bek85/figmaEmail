@@ -1,4 +1,3 @@
-// * Header
 .header {
   // settings up first grid
   display: grid;
@@ -13,9 +12,17 @@
   justify-self: center;
 }
 
+.logo {
+  transition: all 0.5s ease-out;
+}
+
+.logo:hover {
+  transform: perspective(400px) translate3d(-10px, 0px, -10px) scale(0.93);
+}
+
 .header-letter {
   font-size: 30px;
-  color: #6a4a39;
+  color: $logo-text;
 }
 
 .menu {
@@ -31,7 +38,7 @@
   }
 
   &-item:last-of-type {
-    color: #ff7676;
-    border-bottom: 4px solid #f8d1b4;
+    color: $nav-item-last-color;
+    border-bottom: 4px solid $nav-item-color-border-bottom;
   }
 }
