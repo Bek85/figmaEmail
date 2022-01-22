@@ -1,21 +1,3 @@
-$color-1: #ffe1d1;
-$color-2: #ffdbca;
-
-body {
-  font-family: Alegreya, serif;
-  background: linear-gradient(to left, $color-1, $color-2);
-}
-
-/* CSS Best Practices
-
-  Box (position, display, width, margin, etc.)
-  Text
-  Background
-  Border
-  Other (Alphabetically
-
-*/
-
 // * Header
 .header {
   // settings up first grid
@@ -29,13 +11,11 @@ body {
 .header-logo {
   align-self: center;
   justify-self: center;
-
 }
 
 .header-letter {
   font-size: 30px;
   color: #6a4a39;
-
 }
 
 .menu {

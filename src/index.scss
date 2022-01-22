@@ -1,0 +1,18 @@
+$color-1: #ffe1d1;
+$color-2: #ffdbca;
+
+body {
+  font-family: Alegreya, serif;
+  background: linear-gradient(to left, $color-1, $color-2);
+  overflow-x: hidden;
+}
+
+/* CSS Best Practices
+
+  Box (position, display, width, margin, etc.)
+  Text
+  Background
+  Border
+  Other (Alphabetically
+
+*/
