@@ -4,11 +4,16 @@
   align-content: center;
   font-weight: bold;
   font-size: 20px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 45px;
+  }
 }
 
 .header-logo {
   align-self: center;
-  justify-self: center;
+  margin-left: 2rem;
 }
 
 .logo {
@@ -36,6 +41,9 @@
     position: relative;
     margin: 0 47px;
     cursor: pointer;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   &-item::after {
